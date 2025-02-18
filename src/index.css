@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-metal-900 text-gray-200;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-metal-green-500 via-teal-500 to-metal-green-700 text-transparent bg-clip-text;
+}
+
+.metal-gradient {
+  @apply bg-gradient-to-b from-metal-900/90 via-metal-900/80 to-black;
+}
